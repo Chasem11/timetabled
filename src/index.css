@@ -20,20 +20,14 @@ td {
   height: 40px;
 }
 
-.Event {
-  padding: 5px;
-  text-align: center;
-  /* other common styles */
-}
-
 .EventPink {
-  background-color: Pink;
+  background-color: lightPink;
 }
 
 .EventBlue {
-    background-color: Blue;
+    background-color: lightBlue;
 }
 
 .EventGreen {
-    background-color: Green;
+    background-color: lightGreen;
 }
