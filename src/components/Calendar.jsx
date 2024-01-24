@@ -1,4 +1,6 @@
 import React from "react";
+import Event from './Event'
+
 
 const Calendar = () => {
     return (
@@ -19,28 +21,28 @@ const Calendar = () => {
                 <tbody>
                     <tr>
                         <td className="time">8 am</td>
-                        <td></td><td></td><td></td><td>
-                        </td><td></td><td></td><td></td>
+                        <Event event='Starbucks' color='Green'/><td></td><td></td><td>
+                        </td><td></td><Event event="Yolk" color="Green"/>
                     </tr>
                     <tr>
                         <td className="time">9 am</td>
-                        <td></td><td></td><td></td><td>
+                        <td></td><td></td><Event event='Subway' color='Pink'/><td>
                         </td><td></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td className="time">10 am</td>
-                        <td></td><td></td><td></td><td>
+                        <td></td><Event event='River Cruise' color='Blue'/><td></td><td>
                         </td><td></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td className="time">11 am</td>
-                        <td></td><td></td><td></td><td>
+                        <td></td><td></td><Event event='Deep Dish' color='Green'/><td>
                         </td><td></td><td></td><td></td>
                     </tr>
                     <tr>
                         <td className="time">12 pm</td>
                         <td></td><td></td><td></td><td>
-                        </td><td></td><td></td><td></td>
+                        </td><td></td><td></td><Event event='Subway' color='Pink'/>
                     </tr>
                     <tr>
                         <td className="time">1 pm</td>
@@ -49,7 +51,7 @@ const Calendar = () => {
                     </tr>
                     <tr>
                         <td className="time">2 pm</td>
-                        <td></td><td></td><td></td><td>
+                        <td></td><Event event='Art Institute' color='Blue'/><td></td><Event event='Girl & the Goat' color='Green'/><td>
                         </td><td></td><td></td><td></td>
                     </tr>
                     <tr>

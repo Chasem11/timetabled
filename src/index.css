@@ -1,21 +1,39 @@
 body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh; 
-  }
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; 
+}
   
-  th {
-    width: 120px;
-    padding-top:25px;
-    padding-bottom:30px;
-  }
+th {
+  width: 120px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
   
-  td {
-    padding: 5px;
-  }
+td {
+  padding: 5px;
+}
   
-  .time {
-    height: 40px;
-  }
+.time {
+  height: 40px;
+}
+
+.Event {
+  padding: 5px;
+  text-align: center;
+  /* other common styles */
+}
+
+.EventPink {
+  background-color: Pink;
+}
+
+.EventBlue {
+    background-color: Blue;
+}
+
+.EventGreen {
+    background-color: Green;
+}
